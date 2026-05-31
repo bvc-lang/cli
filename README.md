@@ -15,13 +15,13 @@ npm install -g @bvc-lang/cli
 ## Commands
 
 ```bash
-bvc lint charter/main.step    # dual-read .bvc and legacy .step
-bvc lint path/to/file.bvc
+bvc lint charter/main.bvc    # dual-read .bvc and legacy .step
+bvc lint path/to/file.step
 
 bvc format legacy.step              # writes sibling legacy.bvc
 bvc format file.bvc --stdout        # canonical output to stdout
-bvc format file.step --in-place     # overwrite when input is .bvc
-bvc format file.step --out out.bvc
+bvc format file.bvc --in-place     # overwrite when input is .bvc
+bvc format file.bvc --out out.bvc
 ```
 
 ## Monorepo development
@@ -30,7 +30,7 @@ From Work Graph repo root:
 
 ```bash
 npm run sync:bvc-cli-lib   # copy parser into packages/bvc-cli/lib
-npm run bvc lint charter/main.step
+npm run bvc lint charter/main.bvc
 npm run verify:bvc-cli-publish
 ```
 

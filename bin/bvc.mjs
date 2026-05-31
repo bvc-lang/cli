@@ -24,7 +24,7 @@ async function main() {
 
   if (command === 'lint') {
     if (!target || rest.length > 0) {
-      console.error('Usage: bvc lint <path.bvc|path.step>');
+      console.error('Usage: bvc lint <path.bvc|path.bvc>');
       process.exit(2);
     }
     try {
@@ -37,7 +37,7 @@ async function main() {
 
   if (command === 'format') {
     if (!target) {
-      console.error('Usage: bvc format <path.bvc|path.step> [--out path.bvc] [--stdout] [--in-place]');
+      console.error('Usage: bvc format <path.bvc|path.bvc> [--out path.bvc] [--stdout] [--in-place]');
       process.exit(2);
     }
     const outFlag = rest.find((entry) => entry.startsWith('--out='));
