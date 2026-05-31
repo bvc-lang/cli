@@ -1,6 +1,9 @@
 {
   "name": "@bvc-lang/cli",
-  "version": "0.1.1",
+  "version": "0.1.3",
+  "publishConfig": {
+    "access": "public"
+  },
   "description": "BVC command-line tools — lint and format (.bvc + legacy .step read)",
   "type": "module",
   "bin": {
