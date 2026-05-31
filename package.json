@@ -1,6 +1,6 @@
 {
   "name": "@bvc-lang/cli",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "publishConfig": {
     "access": "public"
   },
@@ -35,7 +35,7 @@
     "node": ">=20"
   },
   "dependencies": {
-    "@bvc-lang/spec": "^0.0.2"
+    "@bvc-lang/spec": "^0.0.3"
   },
   "scripts": {
     "prepack": "node ../../scripts/sync-bvc-cli-lib.mjs"

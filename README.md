@@ -23,6 +23,8 @@ bvc format file.bvc --in-place      # overwrite input
 bvc format file.bvc --out out.bvc
 ```
 
+Dual-read: legacy `.step` paths still parse (deprecation warning on read until v2).
+
 ## License
 
 MIT
