@@ -23,18 +23,6 @@ bvc format file.bvc --in-place      # overwrite input
 bvc format file.bvc --out out.bvc
 ```
 
-## Monorepo development
-
-From Work Graph repo root:
-
-```bash
-npm run sync:bvc-cli-lib   # copy parser into packages/bvc-cli/lib
-npm run bvc lint charter/main.bvc
-npm run verify:bvc-cli-publish
-```
-
-Publish: see [PUBLISH.md](./PUBLISH.md).
-
 ## License
 
 MIT
