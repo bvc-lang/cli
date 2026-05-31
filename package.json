@@ -4,7 +4,7 @@
   "publishConfig": {
     "access": "public"
   },
-  "description": "BVC command-line tools — lint and format (.bvc + legacy .step read)",
+  "description": "BVC command-line tools — lint and format .bvc files",
   "type": "module",
   "bin": {
     "bvc": "bin/bvc.mjs"

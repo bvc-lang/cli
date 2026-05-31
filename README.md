@@ -15,12 +15,11 @@ npm install -g @bvc-lang/cli
 ## Commands
 
 ```bash
-bvc lint charter/main.bvc    # dual-read .bvc and legacy .step
-bvc lint path/to/file.step
+bvc lint charter/main.bvc
+bvc lint path/to/file.bvc
 
-bvc format legacy.step              # writes sibling legacy.bvc
 bvc format file.bvc --stdout        # canonical output to stdout
-bvc format file.bvc --in-place     # overwrite when input is .bvc
+bvc format file.bvc --in-place      # overwrite input
 bvc format file.bvc --out out.bvc
 ```
 

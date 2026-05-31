@@ -10,7 +10,7 @@ Command-line tools for **BVC** (Basis · Vector · Goal).
 ```bash
 npm install -g @bvc-lang/cli
 bvc lint path/to/file.bvc
-bvc format path/to/legacy.step --stdout
+bvc format path/to/file.bvc --stdout
 ```
 
 ## License
