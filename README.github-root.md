@@ -2,7 +2,7 @@
 
 Command-line tools for **BVC** (Basis · Vector · Goal).
 
-- npm: [`@bvc-lang/cli`](https://www.npmjs.com/package/@bvc-lang/cli) v0.1.7
+- npm: [`@bvc-lang/cli`](https://www.npmjs.com/package/@bvc-lang/cli) v0.1.8
 - Depends on: [`@bvc-lang/spec`](https://www.npmjs.com/package/@bvc-lang/spec)
 
 ## Install
@@ -15,4 +15,4 @@ bvc format path/to/file.bvc --stdout
 
 ## License
 
-MIT — see LICENSE.
+Apache-2.0 — see LICENSE.
