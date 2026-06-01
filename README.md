@@ -27,4 +27,4 @@ Dual-read: legacy `.step` paths still parse (deprecation warning on read until v
 
 ## License
 
-MIT
+Apache-2.0 — see [LICENSE](LICENSE).
